@@ -1,0 +1,13 @@
+model is:  linear_svc
+runMode is:  test
+testFileNames ['/damsl/projects/mddb/bpti_db/features/features_1002.txt']
+Creating the feature matrix
+Done creating the feature matrix
+The test data has 1000 observations and 965 features
+Done applying transformations to the test data
+Traceback (most recent call last):
+  File "./general_svm.py", line 210, in <module>
+    predict_tbw(trainedModel, test_featureMatrix, test_labels)
+  File "./general_svm.py", line 119, in predict_tbw
+    prediction = models.predict(observation)[0]
+AttributeError: 'NoneType' object has no attribute 'predict'

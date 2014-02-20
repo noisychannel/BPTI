@@ -1,0 +1,12 @@
+model is:  poly_kernel
+runMode is:  test
+testFileNames ['/damsl/projects/mddb/bpti_db/features/features_1002.txt']
+Creating the feature matrix
+Done creating the feature matrix
+The test data has 1000 observations and 965 features
+Done applying transformations to the test data
+------------------------------------
+poly_kernel
+------------------------------------
+99.7
+------------------------------------

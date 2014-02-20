@@ -1,0 +1,10 @@
+model is:  poly_kernel
+runMode is:  test
+testFileNames ['/damsl/projects/mddb/bpti_db/features/features_1002.txt']
+Creating the feature matrix
+Traceback (most recent call last):
+  File "./general_svm2.py", line 186, in <module>
+    test_featureMatrix, test_labels = createDataMatrix(testFileNames)
+  File "./general_svm2.py", line 31, in createDataMatrix
+    listOfObservations = eval(featureFileData)
+MemoryError
